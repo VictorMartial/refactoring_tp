@@ -29,5 +29,7 @@ public class Humain {
 	public String toString() {
 		return "Humain [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
 	}
+	public void manger() { System.out.print("manger");}
+	public void boire() { System.out.print("boire");}
 	
 }
