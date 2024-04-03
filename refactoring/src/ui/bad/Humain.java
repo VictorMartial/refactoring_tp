@@ -37,5 +37,5 @@ public class Humain {
 		return "Humain [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
 	}
 	
-	public void ami(Humain humm) {System.out.print(this.nom + " " +this.prenom+ "est amis avec "+humm.nom +" "+humm.prenom );}
+	public void ami(Humain humm, int duree) {System.out.print(this.nom + " " +this.prenom+ "est amis avec "+humm.nom +" "+humm.prenom +"duree:"+duree );}
 }
