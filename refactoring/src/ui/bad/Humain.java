@@ -22,4 +22,7 @@ public class Humain {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	public void details() {
+		System.out.print("details "+ nom + " " +prenom + " " +age);
+	}
 }
